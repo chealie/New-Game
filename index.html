@@ -17,7 +17,65 @@
 <h1>🌴 CPO vs Gold Trading Simulation 🪙</h1>
 
 
-<div class="card">
+
+<!-- PLAYER SETUP PAGE -->
+
+<div id="setup" class="card">
+
+
+<h2>Enter Players</h2>
+
+
+<p>
+Starting Capital:
+<br>
+
+<strong>RM100,000</strong> each
+
+</p>
+
+
+<br>
+
+
+<h3>Player 1</h3>
+
+<input id="p1" placeholder="Enter Player 1 Name">
+
+
+
+<br><br>
+
+
+
+<h3>Player 2</h3>
+
+<input id="p2" placeholder="Enter Player 2 Name">
+
+
+
+<br><br>
+
+
+<button onclick="startGame()">
+
+START GAME
+
+</button>
+
+
+
+</div>
+
+
+
+
+
+
+<!-- GAME PAGE -->
+
+
+<div id="game" class="card hidden">
 
 
 <h2 id="roundTitle"></h2>
@@ -27,45 +85,53 @@
 
 
 
-<h2>Players</h2>
+<h2>Make Your Decision</h2>
+
 
 
 <div class="players">
 
 
+
 <div>
 
-<h3>Player 1</h3>
 
-<input id="p1" placeholder="Name">
-
-
-<br><br>
+<h3 id="player1Name"></h3>
 
 
 <button onclick="choose(1,'CPO')">
+
 🌴 CPO
+
 </button>
 
 
 <button onclick="choose(1,'Gold')">
+
 🪙 Gold
+
 </button>
 
 
 <button onclick="choose(1,'Both')">
+
 ⚖ Both
+
 </button>
 
 
 <button onclick="choose(1,'Cash')">
+
 💵 Cash
+
 </button>
+
 
 
 <p id="choice1"></p>
 
 
+
 </div>
 
 
@@ -74,41 +140,48 @@
 
 <div>
 
-<h3>Player 2</h3>
 
-<input id="p2" placeholder="Name">
-
-
-<br><br>
+<h3 id="player2Name"></h3>
 
 
 <button onclick="choose(2,'CPO')">
+
 🌴 CPO
+
 </button>
 
 
 <button onclick="choose(2,'Gold')">
+
 🪙 Gold
+
 </button>
 
 
 <button onclick="choose(2,'Both')">
+
 ⚖ Both
+
 </button>
 
 
 <button onclick="choose(2,'Cash')">
+
 💵 Cash
+
 </button>
+
 
 
 <p id="choice2"></p>
 
 
+
 </div>
 
 
 </div>
+
 
 
 
@@ -120,6 +193,7 @@
 📢 Reveal Market
 
 </button>
+
 
 
 </div>
