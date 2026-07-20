@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>CPO vs Gold Trading Game</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<h1>🌴 CPO vs Gold Trading Simulation 🪙</h1>
+
+
+<div class="card">
+
+
+<h2 id="roundTitle"></h2>
+
+
+<div id="marketText"></div>
+
+
+
+<h2>Players</h2>
+
+
+<div class="players">
+
+
+<div>
+
+<h3>Player 1</h3>
+
+<input id="p1" placeholder="Name">
+
+
+<br><br>
+
+
+<button onclick="choose(1,'CPO')">
+🌴 CPO
+</button>
+
+
+<button onclick="choose(1,'Gold')">
+🪙 Gold
+</button>
+
+
+<button onclick="choose(1,'Both')">
+⚖ Both
+</button>
+
+
+<button onclick="choose(1,'Cash')">
+💵 Cash
+</button>
+
+
+<p id="choice1"></p>
+
+
+</div>
+
+
+
+
+
+<div>
+
+<h3>Player 2</h3>
+
+<input id="p2" placeholder="Name">
+
+
+<br><br>
+
+
+<button onclick="choose(2,'CPO')">
+🌴 CPO
+</button>
+
+
+<button onclick="choose(2,'Gold')">
+🪙 Gold
+</button>
+
+
+<button onclick="choose(2,'Both')">
+⚖ Both
+</button>
+
+
+<button onclick="choose(2,'Cash')">
+💵 Cash
+</button>
+
+
+<p id="choice2"></p>
+
+
+</div>
+
+
+</div>
+
+
+
+<br>
+
+
+<button onclick="reveal()">
+
+📢 Reveal Market
+
+</button>
+
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
