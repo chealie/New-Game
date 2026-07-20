@@ -104,3 +104,25 @@ line-height:1.8;
 font-size:18px;
 
 }
+
+
+.hidden{
+
+display:none;
+
+}
+
+
+
+input{
+
+padding:12px;
+
+font-size:18px;
+
+border-radius:8px;
+
+border:1px solid #aaa;
+
+}
+
