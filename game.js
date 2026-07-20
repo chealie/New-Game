@@ -1,3 +1,52 @@
+function startGame(){
+
+
+players[0].name =
+document.getElementById("p1").value;
+
+
+players[1].name =
+document.getElementById("p2").value;
+
+
+
+if(players[0].name=="" || players[1].name==""){
+
+
+alert("Please enter both player names");
+
+
+return;
+
+
+}
+
+
+
+document.getElementById("setup").style.display="none";
+
+
+document.getElementById("game").style.display="block";
+
+
+
+document.getElementById("player1Name").innerHTML=
+
+players[0].name;
+
+
+
+document.getElementById("player2Name").innerHTML=
+
+players[1].name;
+
+
+
+loadGame();
+
+
+}
+
 let currentRound = 0;
 
 
